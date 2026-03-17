@@ -582,10 +582,8 @@ rabbitmq:
     extraIngress:
       - ports:
           - protocol: TCP
-            containerPort: 61613
             port: 61613
           - protocol: TCP
-            containerPort: 15674
             port: 15674
   persistence:
     enabled: true
